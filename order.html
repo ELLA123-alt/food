@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <h1>🍔 Foodies Hub</h1>
+        <nav>
+            <a href="food.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+
+<h2>Place Your Order</h2>
+
+<form onsubmit="placeOrder(event)">
+    <input type="text" placeholder="Your Name" required><br><br>
+    <input type="text" id="food" placeholder="Food Item" required><br><br>
+    <input type="number" placeholder="Quantity" required><br><br>
+    <button type="submit">Submit Order</button>
+</form>
+
+<p id="message"></p>
+
+</main>
+
+<footer>
+    <p>© 2026 Foodies Hub</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
